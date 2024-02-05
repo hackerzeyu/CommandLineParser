@@ -17,3 +17,6 @@
   (1)如果是可选参数：只能通过紧跟参数值的方式，例如：-njack
 
   (2)如果是必选参数：只能通过空格间隔的方式，例如：-n jack
+
+* 项目示例：./cmdparse -a -bjack -c 50 --age=100 --name jack --gender=man
+

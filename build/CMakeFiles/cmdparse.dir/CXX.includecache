@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/code/CommandParseTool/utility/Value.cpp
+Value.h
+/root/code/CommandParseTool/utility/Value.h
+
+/root/code/CommandParseTool/utility/Value.h
+iostream
+-
+string
+-
+sstream
+-
+
+/root/code/CommandParseTool/utility/command.cpp
+command.h
+/root/code/CommandParseTool/utility/command.h
+
+/root/code/CommandParseTool/utility/command.h
+iostream
+-
+string
+-
+stdexcept
+-
+unordered_map
+-
+Value.h
+/root/code/CommandParseTool/utility/Value.h
+

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(cmdparse)
+include_directories(${PROJECT_SOURCE_DIR}/utility)
+file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/utility/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+add_library(cmdparse SHARED ${SRC})
+# add_library(cmdparse STATIC ${SRC})
+# add_executable(cmdparse test.cpp ${SRC})
